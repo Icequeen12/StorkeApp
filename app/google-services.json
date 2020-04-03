@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "119147920786",
+    "firebase_url": "https://bazadanych-da28d.firebaseio.com",
+    "project_id": "bazadanych-da28d",
+    "storage_bucket": "bazadanych-da28d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119147920786:android:f875e814b3c1151f",
+        "android_client_info": {
+          "package_name": "com.example.pamela.udar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119147920786-eqmkl9daqv997hfo4emib1v259ltklub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pamela.udar",
+            "certificate_hash": "bec587e61db48d0b4bff3ded3fab8c72bc8a3d32"
+          }
+        },
+        {
+          "client_id": "119147920786-1onssc84920ldu70tna543gl3h6hjbpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX1eSxi3qFuajKZn99BnfTXFSlTjyx8U0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119147920786-1onssc84920ldu70tna543gl3h6hjbpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

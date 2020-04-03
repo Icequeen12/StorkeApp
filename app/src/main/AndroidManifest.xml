@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pamela.udar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".Practice.CountActivity" />
+        <activity android:name=".Practice.DiscountActivity" />
+        <activity android:name=".PracticePictures.PatternActivity" />
+        <activity android:name=".PracticeReading.FunctionalReadingActivity" />
+        <activity android:name=".PracticePictures.RotactionActivity" />
+        <activity android:name=".PracticeReading.OneOddActivity" />
+        <activity android:name=".Practice.CurrencyActivity" />
+        <activity android:name=".PracticeReading.InstructionsActivity" />
+        <activity android:name=".PracticeWriting.SpellWhatSeeActivity" />
+        <activity android:name=".PracticePictures.ArrowActivity" />
+        <activity android:name=".PracticeWriting.PictureOrderingActivity" />
+        <activity android:name=".PracticeWriting.SentenceActivity" />
+    </application>
+
+</manifest>

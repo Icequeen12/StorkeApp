@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".PracticeReading.InstructionsActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingBottom="60dp"
+        android:text="Uszereguj czynności w prawidłowej kolejności"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.example.pamela.udar.DragAndDrop.DragDropListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapesignup"
+        android:onClick="btnCheck_Clicked"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Sprawdź"
+        android:textColor="@color/white" />
+
+</LinearLayout>
